@@ -21,7 +21,9 @@ When you create or modify a `.go` file, you must run both `gofumpt` and
 
 ### Execution
 
-Run the following tools on the modified file(s) before completing your task:
+You must run the following tools on any modified `.go` file(s) **always before
+compiling and running any tests** that are part of your execution plan, and
+before completing your task:
 
 1. Check if `gofumpt` and `golines` are available in your system path (or
    `~/go/bin/`).
