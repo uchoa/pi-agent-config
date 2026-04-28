@@ -4,8 +4,7 @@
   "defaultModel": "gemini-3.1-pro-preview",
   "defaultThinkingLevel": "high",
   "packages": [
-    "git:github.com/AlvaroRausell/pi-ask",
-    "git:github.com/juhas96/graphify-pi"
+    "git:github.com/AlvaroRausell/pi-ask"
   ],
   "treeFilterMode": "default",
   "doubleEscapeAction": "tree",
