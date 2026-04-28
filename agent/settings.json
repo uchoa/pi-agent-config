@@ -4,7 +4,6 @@
   "defaultModel": "gemini-3.1-pro-preview",
   "defaultThinkingLevel": "medium",
   "packages": [
-    "git:github.com/AlvaroRausell/pi-ask",
     "git:github.com/juhas96/graphify-pi"
   ],
   "treeFilterMode": "default",
