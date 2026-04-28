@@ -1,0 +1,13 @@
+# Ignore sensitive authentication data (API keys, etc.)
+agent/auth.json
+
+# Ignore chat history, session state, and runtime logs
+agent/sessions/
+agent/*.log
+
+# Ignore downloaded third-party extensions and skills (cloned repos)
+agent/git/
+
+# (Optional) Ignore downloaded node_modules if you ever install packages locally
+agent/npm/
+node_modules/
