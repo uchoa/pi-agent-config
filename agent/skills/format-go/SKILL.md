@@ -18,6 +18,9 @@ When you create or modify a `.go` file, you must run both `gofumpt` and
 
 - Format code using `gofumpt`.
 - Auto-wrap comments (and long code lines) at 80 characters using `golines`.
+  **Note:** `gofumpt` does not enforce line length limits, so running `golines`
+  afterward is strictly mandatory to prevent long lines from remaining
+  unwrapped.
 
 ### Execution
 
@@ -36,10 +39,8 @@ before completing your task:
      ```
    - **Wait for the user to confirm** they have installed the tools and tell you
      to retry before proceeding with the task.
-3. If they ARE available, format the file(s) by running these two commands in
-   order:
+3. If they ARE available, format the file(s) by running this combined command:
 
 ```bash
-gofumpt -w <file-path>
-golines -m 80 --shorten-comments -w <file-path>
+gofumpt -w <file-path> && golines -m 80 --shorten-comments -w <file-path>
 ```
