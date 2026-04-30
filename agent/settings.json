@@ -2,7 +2,7 @@
   "lastChangelogVersion": "0.70.6",
   "defaultProvider": "google-vertex",
   "defaultModel": "gemini-3.1-pro-preview",
-  "defaultThinkingLevel": "medium",
+  "defaultThinkingLevel": "high",
   "packages": [
     "git:github.com/juhas96/graphify-pi"
   ],
